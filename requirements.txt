@@ -1,0 +1,135 @@
+# =========================
+# DocuTrace - requirements.txt
+# Phase 1 Foundation Stack
+# =========================
+
+# -------------------------
+# Core Backend
+# -------------------------
+fastapi
+uvicorn[standard]
+pydantic
+python-dotenv
+
+# -------------------------
+# LangChain + LangGraph
+# -------------------------
+langchain
+langchain-community
+langchain-core
+langgraph
+
+# -------------------------
+# Local LLM / Embeddings
+# -------------------------
+ollama
+sentence-transformers
+transformers
+accelerate
+
+# -------------------------
+# Document Parsing
+# -------------------------
+pymupdf
+pdfplumber
+unstructured
+python-docx
+python-pptx
+pandas
+openpyxl
+
+# -------------------------
+# OCR
+# -------------------------
+pytesseract
+easyocr
+Pillow
+
+# -------------------------
+# NLP + NER
+# -------------------------
+spacy
+flair
+
+# -------------------------
+# Embeddings + Vector DB
+# -------------------------
+faiss-cpu
+chromadb
+
+# -------------------------
+# Retrieval + Ranking
+# -------------------------
+rank-bm25
+
+# -------------------------
+# ML + Classical ML
+# -------------------------
+scikit-learn
+xgboost
+lightgbm
+
+# -------------------------
+# Deep Learning
+# -------------------------
+torch
+torchvision
+
+# -------------------------
+# Graph + Provenance
+# -------------------------
+networkx
+
+# -------------------------
+# Evaluation
+# -------------------------
+ragas
+deepeval
+evidently
+
+# -------------------------
+# Experiment Tracking
+# -------------------------
+wandb
+mlflow
+
+# -------------------------
+# API + Utilities
+# -------------------------
+httpx
+aiofiles
+tqdm
+
+# -------------------------
+# Observability
+# -------------------------
+prometheus-client
+structlog
+
+# -------------------------
+# Data Validation
+# -------------------------
+pydantic-settings
+
+# -------------------------
+# Testing
+# -------------------------
+pytest
+pytest-asyncio
+
+# -------------------------
+# Notebook Support
+# -------------------------
+jupyter
+ipykernel
+
+# -------------------------
+# Optional Streamlit UI
+# -------------------------
+streamlit
+
+# -------------------------
+# Optional Weaviate
+# -------------------------
+weaviate-client
+
