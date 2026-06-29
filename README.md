@@ -76,4 +76,75 @@ The project focuses on:
 
 ---
 
-> **Current Version:** **v1.0** – Core Agentic RAG pipeline with modular frontend, evaluation, verification, and interactive dashboard.
+## 📦 Current Release
+
+**Version:** `v1.0`
+
+### Implemented
+
+- ✅ Modular Streamlit Dashboard
+- ✅ Multi-Agent LangGraph Workflow
+- ✅ Hybrid Retrieval Pipeline
+- ✅ Evidence Aggregation
+- ✅ Citation Verification
+- ✅ Reflection-based Answer Refinement
+- ✅ Faithfulness & Relevancy Evaluation
+- ✅ Interactive Insights Panel
+
+
+---
+
+# 🏗️ System Architecture
+
+DocuTrace follows a modular Agentic Retrieval-Augmented Generation (RAG) architecture where each stage of the pipeline is responsible for a specific task. Instead of directly generating responses from retrieved text, the workflow separates planning, retrieval, generation, reflection, verification, and evaluation into independent components.
+
+```text
+                     User Query
+                          │
+                          ▼
+                  Planner Agent
+                          │
+                          ▼
+              Hybrid Retrieval Pipeline
+             (Semantic + Keyword Search)
+                          │
+                          ▼
+               Evidence Aggregation
+                          │
+                          ▼
+                 Generator Agent
+                   (Phi-3 via Ollama)
+                          │
+                          ▼
+                 Reflection Agent
+                          │
+                          ▼
+              Citation Verification
+                          │
+                          ▼
+             Evaluation Pipeline
+      • Faithfulness
+      • Answer Relevancy
+      • Context Precision
+      • Context Recall
+                          │
+                          ▼
+                Final Response
+                          │
+                          ▼
+            Interactive Streamlit UI
+```
+
+### Workflow Components
+
+| Component             | Responsibility                                                                                                   |
+| --------------------- | ---------------------------------------------------------------------------------------------------------------- |
+| Planner Agent         | Analyzes the user query and prepares the reasoning workflow.                                                     |
+| Hybrid Retrieval      | Retrieves the most relevant document chunks using semantic and keyword-based retrieval.                          |
+| Evidence Aggregation  | Combines retrieved context into a unified evidence set.                                                          |
+| Generator Agent       | Generates an answer grounded in the retrieved evidence using Phi-3.                                              |
+| Reflection Agent      | Reviews the generated answer before verification.                                                                |
+| Citation Verification | Ensures citations correspond to retrieved evidence.                                                              |
+| Evaluation Pipeline   | Computes answer quality metrics including faithfulness, answer relevancy, context precision, and context recall. |
+| Streamlit Dashboard   | Presents answers, evidence, evaluation metrics, and retrieved sources through an interactive interface.          |
+
