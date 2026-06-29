@@ -436,3 +436,29 @@ The application also includes:
   - System architecture
   - Technology stack
   - Key features
+
+  ---
+
+# 📊 Evaluation
+
+DocuTrace evaluates generated responses to help users assess answer quality and transparency. Instead of only generating an answer, the system also reports evaluation metrics that indicate how well the response is supported by the retrieved evidence.
+
+| Metric | Description |
+|---------|-------------|
+| **Faithfulness** | Measures whether the generated answer is grounded in the retrieved document context. |
+| **Answer Relevancy** | Evaluates how well the generated response answers the user's question. |
+| **Context Precision** | Indicates how much of the retrieved context is relevant to the generated answer. |
+| **Context Recall** | Measures whether the retrieved context contains sufficient information to answer the question. |
+| **Citation Verification** | Verifies that citations correspond to the retrieved document evidence. |
+
+### Evaluation Dashboard
+
+The evaluation results are displayed in the **Insights Panel**, allowing users to inspect:
+
+- ✅ Verification Status
+- 📈 Confidence Score
+- 📊 Faithfulness
+- 📊 Answer Relevancy
+- 📊 Context Precision
+- 📊 Context Recall
+- 🧠 Reflection Output
