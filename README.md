@@ -220,3 +220,56 @@ DocuTrace/
 | **pages/**        | Additional application pages such as Uploaded Documents and About DocuTrace. |
 | **data/**         | Stores source documents and generated vector indexes.                        |
 
+
+---
+
+# 📸 User Interface
+
+## 🏠 Dashboard
+
+The main dashboard allows users to submit document-related queries and interact with the Agentic RAG pipeline through a modern Streamlit interface.
+
+<p align="center">
+  <img src="docs/screenshots/dashboard.png" width="900">
+</p>
+
+---
+
+## 💡 Final Answer & Evidence
+
+The generated answer is presented together with evidence aggregation and retrieved document sources to improve transparency and traceability.
+
+<p align="center">
+  <img src="docs/screenshots/answer.png" width="900">
+</p>
+
+---
+
+## 📊 Insights Panel
+
+The Insights panel provides verification status, confidence score, evaluation metrics, reflection results, and planner outputs.
+
+<p align="center">
+  <img src="docs/screenshots/insights.png" width="350">
+</p>
+
+---
+
+## 📂 Documents
+
+Displays information about the indexed document, embedding model, vector database, and retrieval pipeline.
+
+<p align="center">
+  <img src="docs/screenshots/documents.png" width="900">
+</p>
+
+---
+
+## ℹ️ About DocuTrace
+
+Summarizes the project architecture, technology stack, and system workflow.
+
+<p align="center">
+  <img src="docs/screenshots/about.png" width="900">
+</p>
+
