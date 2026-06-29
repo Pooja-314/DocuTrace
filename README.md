@@ -37,3 +37,43 @@ The project focuses on:
 * Providing citation-aware document question answering.
 * Evaluating answer quality using faithfulness, answer relevancy, context precision, and context recall.
 * Presenting the complete reasoning pipeline through an interactive dashboard.
+
+
+---
+
+# ✨ Key Features
+
+## 🤖 Agentic RAG Workflow
+
+* Multi-agent workflow orchestrated using **LangGraph**.
+* Query decomposition through a dedicated **Planner Agent**.
+* Answer generation using a local **Phi-3** Large Language Model via **Ollama**.
+* Reflection stage for answer refinement before final verification.
+
+## 🔍 Retrieval & Evidence
+
+* Hybrid retrieval pipeline combining semantic retrieval with keyword-based retrieval.
+* FAISS vector database for efficient similarity search.
+* Evidence aggregation from retrieved document chunks.
+* Source-aware responses with document citations.
+
+## 📊 Evaluation & Verification
+
+* Automated answer verification.
+* Faithfulness evaluation.
+* Answer relevancy evaluation.
+* Context Precision and Context Recall metrics.
+* Transparent reasoning and evaluation dashboard.
+
+## 🖥️ Interactive Dashboard
+
+* Modern Streamlit interface with modular architecture.
+* Interactive Insights Panel.
+* Evidence Aggregation Viewer.
+* Retrieved Sources Explorer.
+* Documents Information Page.
+* About Project Page.
+
+---
+
+> **Current Version:** **v1.0** – Core Agentic RAG pipeline with modular frontend, evaluation, verification, and interactive dashboard.
