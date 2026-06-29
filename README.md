@@ -462,3 +462,21 @@ The evaluation results are displayed in the **Insights Panel**, allowing users t
 - 📊 Context Precision
 - 📊 Context Recall
 - 🧠 Reflection Output
+
+---
+
+# ⚠️ Current Limitations
+
+DocuTrace is an actively evolving portfolio project. The current version focuses on demonstrating an end-to-end Agentic Retrieval-Augmented Generation (RAG) workflow while maintaining transparency through citation verification and evaluation.
+
+The current implementation has the following limitations:
+
+- Supports a single indexed document at a time.
+- Optimized for PDF document processing.
+- Requires a locally running Ollama instance.
+- Uses **Phi-3** as the default LLM (configurable by updating the `MODEL_NAME` variable).
+- Retrieval quality depends on document chunking, embeddings, and the indexed document content.
+- Designed for local execution and has not yet been deployed as a cloud-hosted application.
+- Currently intended for English-language documents.
+
+> These limitations represent opportunities for future enhancements and are included to transparently communicate the current scope of the project.
