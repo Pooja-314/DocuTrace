@@ -522,3 +522,24 @@ Potential future improvements include:
 - Docker Support
 - Authentication & User Management
 - Analytics Dashboard
+
+
+---
+
+# 🙏 Acknowledgements
+
+DocuTrace was developed by building upon the ideas and open-source ecosystem surrounding Retrieval-Augmented Generation (RAG), document intelligence, and Large Language Models.
+
+Special thanks to the creators and communities behind the following technologies:
+
+- **LangChain** — Framework for building LLM-powered applications.
+- **LangGraph** — Workflow orchestration for multi-agent AI systems.
+- **Ollama** — Local inference platform for running Large Language Models.
+- **Microsoft Phi-3** — Lightweight language model used for answer generation.
+- **FAISS** — High-performance similarity search and vector indexing.
+- **Sentence Transformers** — Text embedding models for semantic retrieval.
+- **PyMuPDF** — PDF parsing and document processing.
+- **Streamlit** — Interactive web interface for rapid AI application development.
+- **DeepEval** — Evaluation framework for measuring RAG system quality.
+
+This project was developed as a portfolio project to explore transparent and trustworthy document question answering through Agentic RAG workflows.
