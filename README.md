@@ -273,3 +273,82 @@ Summarizes the project architecture, technology stack, and system workflow.
   <img src="docs/screenshots/about.png" width="900">
 </p>
 
+
+---
+
+# 🚀 Installation
+
+## 1. Clone the Repository
+
+```bash
+git clone https://github.com/Pooja-314/DocuTrace.git
+cd DocuTrace
+```
+
+## 2. Create a Virtual Environment
+
+### Windows
+
+```bash
+python -m venv venv
+venv\Scripts\activate
+```
+
+### macOS / Linux
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+## 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+## 4. Configure Environment Variables
+
+Create a `.env` file in the project root and add the required environment variables.
+
+> **Note:** The `.env` file is intentionally excluded from the repository for security reasons.
+
+## 5. Install an Ollama Model
+
+DocuTrace uses **Phi-3** as the default Large Language Model.
+
+```bash
+ollama pull phi3
+```
+
+> **Note:** The default model is configured as:
+
+```python
+MODEL_NAME = "phi3"
+```
+
+You can replace `phi3` with any other Ollama-compatible model by updating the `MODEL_NAME` variable in the project configuration.
+```
+
+## 6. Launch the Application
+
+```bash
+cd frontend
+streamlit run main.py
+```
+
+## 7. Verify the Setup
+
+Once the application starts successfully, open:
+
+```text
+http://localhost:8501
+```
+
+You should see the **DocuTrace Dashboard**, where you can:
+
+- Ask questions about indexed documents.
+- View retrieved evidence and citations.
+- Explore the Insights panel.
+- Review evaluation metrics.
+```
