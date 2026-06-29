@@ -543,3 +543,14 @@ Special thanks to the creators and communities behind the following technologies
 - **DeepEval** — Evaluation framework for measuring RAG system quality.
 
 This project was developed as a portfolio project to explore transparent and trustworthy document question answering through Agentic RAG workflows.
+
+
+---
+
+# 📄 License
+
+This project is licensed under the **MIT License**.
+
+The MIT License permits anyone to use, modify, distribute, and build upon this project while retaining the original copyright notice.
+
+See the [LICENSE](LICENSE) file for complete license details.
