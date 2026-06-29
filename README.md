@@ -480,3 +480,45 @@ The current implementation has the following limitations:
 - Currently intended for English-language documents.
 
 > These limitations represent opportunities for future enhancements and are included to transparently communicate the current scope of the project.
+
+
+---
+
+# 🛣️ Roadmap
+
+The following roadmap outlines the planned evolution of DocuTrace. Items are grouped by development phase to distinguish completed functionality from future enhancements.
+
+## ✅ Version 1.0 — Current Release
+
+- Modular Streamlit Dashboard
+- Multi-Agent LangGraph Workflow
+- Hybrid Retrieval (FAISS + BM25)
+- Evidence Aggregation
+- Citation Verification
+- Reflection-based Answer Refinement
+- Evaluation Metrics
+- Interactive Insights Panel
+- Modular Project Architecture
+
+---
+
+## 🚧 Version 2.0 — Planned
+
+- Multiple Document Support
+- PDF Upload from Dashboard
+- Conversation History
+- Streaming Response Generation
+- Enhanced Citation Navigation
+
+---
+
+## 🔮 Future Exploration
+
+Potential future improvements include:
+
+- Adaptive Retrieval Strategies
+- Cloud Deployment
+- REST API
+- Docker Support
+- Authentication & User Management
+- Analytics Dashboard
