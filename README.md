@@ -148,3 +148,24 @@ DocuTrace follows a modular Agentic Retrieval-Augmented Generation (RAG) archite
 | Evaluation Pipeline   | Computes answer quality metrics including faithfulness, answer relevancy, context precision, and context recall. |
 | Streamlit Dashboard   | Presents answers, evidence, evaluation metrics, and retrieved sources through an interactive interface.          |
 
+
+---
+
+# 🛠️ Tech Stack
+
+| Category                       | Technologies                    |
+| ------------------------------ | ------------------------------- |
+| **Programming Language**       | Python                          |
+| **Frontend**                   | Streamlit, Custom CSS           |
+| **AI Orchestration**           | LangGraph                       |
+| **RAG Framework**              | LangChain                       |
+| **Large Language Model (LLM)** | Phi-3 (via Ollama)              |
+| **Embeddings**                 | Sentence Transformers           |
+| **Vector Database**            | FAISS                           |
+| **Retrieval**                  | Hybrid Retrieval (FAISS + BM25) |
+| **Document Processing**        | PyMuPDF                         |
+| **Model Hub**                  | Hugging Face Hub                |
+| **Evaluation**                 | DeepEval                        |
+| **Machine Learning**           | Scikit-learn                    |
+| **Development Environment**    | Visual Studio Code              |
+
