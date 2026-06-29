@@ -169,3 +169,54 @@ DocuTrace follows a modular Agentic Retrieval-Augmented Generation (RAG) archite
 | **Machine Learning**           | Scikit-learn                    |
 | **Development Environment**    | Visual Studio Code              |
 
+
+---
+
+# 📂 Project Structure
+
+```text
+DocuTrace/
+│
+├── app/
+│   ├── agents/              # LangGraph workflow nodes
+│   ├── evaluation/          # Faithfulness & relevancy evaluation
+│   ├── ingestion/           # Document loading & preprocessing
+│   ├── ml/                  # Embeddings & ML utilities
+│   ├── rag/                 # RAG pipeline
+│   ├── retrieval/           # Hybrid Retrieval & reranking
+│   ├── services/            # Backend service layer
+│   └── verification/        # Citation verification
+│
+├── data/                    # Source documents & vector database
+│
+├── frontend/
+│   ├── assets/              # Images & static assets
+│   ├── components/          # Dashboard components
+│   ├── pages/               # About & Documents pages
+│   ├── main.py              # Streamlit entry point
+│   ├── run_frontend.py
+│   └── styles.py
+│
+├── requirements.txt
+├── README.md
+├── .gitignore
+└── LICENSE (Planned)
+```
+
+---
+
+## 📖 Directory Overview
+
+| Directory         | Description                                                                  |
+| ----------------- | ---------------------------------------------------------------------------- |
+| **app/**          | Core backend implementation of the Agentic RAG workflow.                     |
+| **agents/**       | Planner, Generator, Reflection and other workflow nodes.                     |
+| **retrieval/**    | Hybrid Retrieval pipeline, reranking and evidence retrieval.                 |
+| **evaluation/**   | Computes answer quality metrics such as Faithfulness and Answer Relevancy.   |
+| **verification/** | Citation verification and evidence validation.                               |
+| **services/**     | Connects the frontend with the backend pipeline.                             |
+| **frontend/**     | Interactive Streamlit application.                                           |
+| **components/**   | Modular UI components including Sidebar, Dashboard and Insights Panel.       |
+| **pages/**        | Additional application pages such as Uploaded Documents and About DocuTrace. |
+| **data/**         | Stores source documents and generated vector indexes.                        |
+
