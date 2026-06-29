@@ -1,0 +1,39 @@
+# 📄 DocuTrace
+
+### Multi-Hop Document Intelligence with Verifiable Citation Chains
+
+> **An enterprise-inspired Agentic Retrieval-Augmented Generation (RAG) system that answers questions from documents through multi-step reasoning, evidence aggregation, citation verification, and automated evaluation.**
+
+![Python](https://img.shields.io/badge/Python-3.11-blue?logo=python)
+![LangGraph](https://img.shields.io/badge/LangGraph-Agentic%20Workflow-success)
+![LangChain](https://img.shields.io/badge/LangChain-RAG-green)
+![FAISS](https://img.shields.io/badge/Vector%20Store-FAISS-orange)
+![Phi-3](https://img.shields.io/badge/LLM-Phi--3-purple)
+![Streamlit](https://img.shields.io/badge/Frontend-Streamlit-red)
+![License](https://img.shields.io/badge/License-MIT-blue)
+
+---
+
+## 📖 Overview
+
+Large documents such as research papers, technical reports, legal documents, and business reports often contain valuable information that is difficult to locate quickly. Traditional document question-answering systems typically retrieve relevant text but provide limited transparency into how an answer was produced or whether it is supported by evidence.
+
+**DocuTrace** is a document intelligence system that demonstrates how an Agentic RAG workflow can improve transparency and trustworthiness in document question answering.
+
+Instead of relying on a single retrieval and generation step, DocuTrace uses a modular workflow that plans the query, retrieves relevant evidence, generates an answer grounded in the retrieved context, performs answer reflection, verifies the response, and reports evaluation metrics to help users assess answer quality.
+
+The system also provides an interactive Streamlit dashboard where users can explore retrieved evidence, inspect supporting sources, review evaluation metrics, and understand the reasoning process behind generated responses.
+
+---
+
+## ⭐ Why DocuTrace?
+
+DocuTrace was developed to explore how modern Retrieval-Augmented Generation (RAG) systems can produce answers that are not only relevant but also transparent and verifiable.
+
+The project focuses on:
+
+* Improving transparency through evidence-grounded responses.
+* Demonstrating a modular multi-agent workflow using LangGraph.
+* Providing citation-aware document question answering.
+* Evaluating answer quality using faithfulness, answer relevancy, context precision, and context recall.
+* Presenting the complete reasoning pipeline through an interactive dashboard.
