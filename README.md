@@ -351,4 +351,88 @@ You should see the **DocuTrace Dashboard**, where you can:
 - View retrieved evidence and citations.
 - Explore the Insights panel.
 - Review evaluation metrics.
+
+
+---
+
+# ▶️ Usage
+
+After successfully launching the application, open the Streamlit interface in your browser:
+
+```text
+http://localhost:8501
 ```
+
+### Step 1 — Launch DocuTrace
+
+Start the Streamlit application:
+
+```bash
+cd frontend
+streamlit run main.py
+```
+
+---
+
+### Step 2 — Ask a Question
+
+Navigate to the **Dashboard** and enter a question related to the indexed document.
+
+**Example Questions**
+
+```text
+What are the major applications of Generative AI?
+
+Summarize the document.
+
+Explain the role of cloud computing.
+
+What challenges are discussed in the document?
+```
+
+---
+
+### Step 3 — Review the Generated Answer
+
+DocuTrace generates an evidence-grounded answer using the Agentic RAG pipeline.
+
+The response includes:
+
+- Final Answer
+- Source Citations
+- Evidence Aggregation
+- Retrieved Sources
+
+---
+
+### Step 4 — Inspect the Insights Panel
+
+The Insights panel provides additional information about the generated response, including:
+
+- Verification Status
+- Confidence Score
+- Number of Retrieved Sources
+- Planner-generated Sub-Questions
+- Reflection Output
+- Faithfulness Evaluation
+- Answer Relevancy
+- Context Precision
+- Context Recall
+
+---
+
+### Step 5 — Explore Additional Pages
+
+The application also includes:
+
+- 📂 **Uploaded Documents**
+  - View document statistics
+  - Embedding model
+  - Vector database
+  - Retrieval pipeline
+
+- ℹ️ **About DocuTrace**
+  - Project overview
+  - System architecture
+  - Technology stack
+  - Key features
