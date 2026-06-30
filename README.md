@@ -1,5 +1,18 @@
 # 📄 DocuTrace
 
+
+<p align="center">
+  <img src="docs/banner.png" width="100%">
+</p>
+
+<h1 align="center">📄 DocuTrace</h1>
+
+<p align="center">
+Multi-Hop Document Intelligence with Verifiable Citation Chains
+</p>
+
+
+
 ### Multi-Hop Document Intelligence with Verifiable Citation Chains
 
 > **An enterprise-inspired Agentic Retrieval-Augmented Generation (RAG) system that answers questions from documents through multi-step reasoning, evidence aggregation, citation verification, and automated evaluation.**
@@ -134,6 +147,14 @@ DocuTrace follows a modular Agentic Retrieval-Augmented Generation (RAG) archite
                           ▼
             Interactive Streamlit UI
 ```
+
+## 🏗️ System Architecture
+
+<p align="center">
+  <img src="docs/architecture_v1.png" width="100%">
+</p>
+
+The diagram below illustrates the current implementation of the DocuTrace v1.0 Agentic RAG pipeline, including document ingestion, hybrid retrieval, evidence aggregation, answer generation, verification, and evaluation.
 
 ### Workflow Components
 
